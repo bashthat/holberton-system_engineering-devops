@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# holberton-system_engineering-devops
-=======
 # holberton-system_engineering-devops
 printf() "hello world"
->>>>>>> a23149c96c250529992299709b36f64bdc780dce
+
+this is a directory on the use of the schebang, and developing a shell enviornment
