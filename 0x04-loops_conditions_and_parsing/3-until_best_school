@@ -1,2 +1,2 @@
 #!/bin/env bash
-
+count=10; i=1; until [i le $count]; do echo "Best School"; done
