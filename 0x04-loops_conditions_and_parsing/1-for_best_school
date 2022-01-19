@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-for (( x = 0 ; x <= 10 ; x++ )); do echo "Best School"; done
+for (( x = 1 ; x <= 10 ; x++ )); do echo "Best School"; done
