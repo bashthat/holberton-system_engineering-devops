@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#to infinity and beyond at 3.33 in the afternoon.. kaufee. at least my hint is "while" from the gitgo.
+while true
+do
+echo "To infinity and beyond"
+sleep 2
+done
