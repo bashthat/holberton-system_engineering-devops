@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#the main use of this program is making a number list 1-100, writeing "fizz" every third, and "buzz" every fith. 
+#the best approach I found is first using basic mathematics to understand the code. It starts in any For, While, or
+#until loop with the largest number, which is 15. First 15, then deal with three and 5 as a start to solving mul-
+#tiple problems. 
+for x in {1..100}; do
+if (! ((x % 3)) ) && (! ((x % 5)) ); 
+then 
+echo "FizzBuzz"
+elif (! ((x % 3)) ); 
+then echo "fizz"
+elif (! ((x % 5)) ); then 
+echo "buzz"
+else
+echo $x;
+fi
+done
