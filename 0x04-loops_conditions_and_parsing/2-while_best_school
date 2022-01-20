@@ -1,2 +1,3 @@
-#!/bin/env bash
-i=1; while [ $i -le 10]; do echo "Best School"; (( i++ )); done;
+#!/usr/bin/env bash
+#BestSchoolWhileloop
+Best=1; while [ $Best -le 10 ]; do echo "Best School"; (( Best++ )); done;
