@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#instead of ps, there is the file /proc that lists processes currently running in terminal.
+pgrep -l bash
