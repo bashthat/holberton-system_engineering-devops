@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#new kill switch. way more shiny
+SIGTERM "$(pgrep -f ./4-to_infinity_and_beyond)"

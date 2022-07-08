@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#BestSchoolUntiloop
+Best=1; until [[ $Best -gt 10 ]]; do echo "Best School"; ((Best++)); done

@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+#$hi!
+Best=1 
+while [ $Best -le 10 ]
+do echo "Best School"
+if [ $Best -eq 9 ]
+then echo "Hi"
+fi
+((Best++))
+done

@@ -1,0 +1,5 @@
+#!/bin/bash
+# This script takes in a string argument and pushes it as the commit message
+git add *
+git commit -m "$1"
+git push

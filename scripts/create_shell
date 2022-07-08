@@ -1,0 +1,6 @@
+#!/bin/bash
+# This script creates a template script that is already executable by the user
+# Takes in what you want the name of the file to be
+echo "#!/bin/bash" >> $1
+echo "$2" >> $1
+chmod u+x $1
